@@ -15,9 +15,9 @@ class Weather(object):
 	def __init__(self, bot):
 		self.bot = bot
 
-		self.darksky_api_key = 'dd1473466769051ef1c08eb24e7946fd'
-		self.geonames_username = 'brajenful'
-		self.owm_api_key = 'f4287542973c771350cf050f94680e37'
+		self.darksky_api_key = ''
+		self.geonames_username = ''
+		self.owm_api_key = ''
 		self.owm_url = 'http://api.openweathermap.org/data/2.5/weather'
 		self.owm_payload = {'lat': None, 'lon': None, 'appid': self.owm_api_key}
 
