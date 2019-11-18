@@ -1,0 +1,9 @@
+python-twitch-client
+forecastiopy
+geopy
+thesaurus
+bs4
+pillow
+etym
+wordcloud
+wikipedia
