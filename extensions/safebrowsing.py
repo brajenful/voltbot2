@@ -10,7 +10,7 @@ class SafeBrowsing:
 
 	def __init__(self, bot):
 		self.bot = bot
-		self.api_key = 'AIzaSyAkPC4M5MzYL7yJA5LxmqoqEOdz5mkLt3E'
+		self.api_key = ''
 
 		self.sb = sb.LookupAPI(self.api_key)
 
